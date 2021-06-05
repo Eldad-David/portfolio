@@ -1,3 +1,20 @@
+h1 {
+    background-color: bisque;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(250, 236, 219);
+}
 .sidebar {
     float: right;
+    border-left: 2px solid grey;
+    padding: 20px;
+}
+.projects {
+    float: inline-end;
 }
