@@ -40,7 +40,8 @@ img {
 }
 footer {
     color: coral;
-    margin: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 @media screen and (max-width: 624px) {
     .sidebar {
