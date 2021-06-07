@@ -33,9 +33,10 @@ img {
     margin: 5px;
     padding-right: 20px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .sidebar {
         float: none;
+        border: none;
     }
 #about {
     font-family: cursive;
