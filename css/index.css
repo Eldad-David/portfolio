@@ -8,6 +8,7 @@ h1 {
 h2 {
     font-size: 30px;
     color: coral;
+    padding-left: 25px;
 }
 h3 {
     color: crimson;
@@ -24,15 +25,19 @@ img {
 .sidebar {
     float: right;
     border-left: 2px solid grey;
-    padding: 20px;
+    padding: 30px;
 }
 .projects {
     float: inline-end;
     padding: 20px;
     margin: 5px;
+    padding-right: 20px;
 }
 @media screen and (max-width: 480px) {
     .sidebar {
         float: none;
     }
+#about {
+    font-family: cursive;
+    font-size: 25px
 }
