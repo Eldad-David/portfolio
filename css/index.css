@@ -31,3 +31,8 @@ img {
     padding: 20px;
     margin: 5px;
 }
+@media screen and (max-width: 480px) {
+    .sidebar {
+        float: none;
+    }
+}
