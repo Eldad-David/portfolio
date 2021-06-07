@@ -19,8 +19,8 @@ body {
     background-color: rgb(250, 236, 219);
 }
 img {
-    width: 150px;
-    float: left;
+    width: 250px;
+    align-self: center;
 }
 .sidebar {
     float: right;
@@ -33,12 +33,17 @@ img {
     margin: 5px;
     padding-right: 20px;
 }
+#about {
+    font-family: cursive;
+    font-size: 25px;
+}
+footer {
+    color: coral;
+    margin: 20px;
+}
 @media screen and (max-width: 500px) {
     .sidebar {
         float: none;
         border: none;
     }
-#about {
-    font-family: cursive;
-    font-size: 25px
 }
